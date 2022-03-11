@@ -1,6 +1,49 @@
 html,
 body,
 #root {
-    height: 100%;
-    margin: 0;
+    height: 300px;
+    width: 700px;
+}
+
+section :first-child {
+    width: 100px;
+    height: 100px;
+    background: #daa520;
+    border-radius: 50%;
+    position: fixed;
+}
+section :last-child {
+    width: 100px;
+    height: 100px;
+    background: #daa520;
+    border-radius: 50%;
+    position: fixed;
+    left: 600px;
+}
+section :nth-child(2) {
+    width: 100px;
+    height: 100px;
+    background: #daa520;
+    border-radius: 50%;
+    position: fixed;
+    left: 150px;
+    top: 100px;
+}
+section :nth-child(4) {
+    width: 100px;
+    height: 100px;
+    background: #daa520;
+    border-radius: 50%;
+    position: fixed;
+    left: 450px;
+    top: 100px;
+}
+section :nth-child(3) {
+    width: 100px;
+    height: 100px;
+    background: #daa520;
+    border-radius: 50%;
+    position: fixed;
+    left: 300px;
+    top: 200px;
 }
