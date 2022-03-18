@@ -1,49 +1,29 @@
 html,
 body,
 #root {
-    height: 300px;
-    width: 700px;
+    height: 100%;
+    margin: 0px;
 }
 
-section :first-child {
-    width: 100px;
-    height: 100px;
-    background: #daa520;
-    border-radius: 50%;
-    position: fixed;
+section {
+    height: 300px;
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
 }
-section :last-child {
-    width: 100px;
-    height: 100px;
-    background: #daa520;
+div {
+    background-color: #daa552;
     border-radius: 50%;
-    position: fixed;
-    left: 600px;
+    height: 100px;
+    width: 100px;
 }
-section :nth-child(2) {
-    width: 100px;
-    height: 100px;
-    background: #daa520;
-    border-radius: 50%;
-    position: fixed;
-    left: 150px;
-    top: 100px;
+div:nth-child(3) {
+    align-self: flex-end;
 }
-section :nth-child(4) {
-    width: 100px;
-    height: 100px;
-    background: #daa520;
-    border-radius: 50%;
-    position: fixed;
-    left: 450px;
-    top: 100px;
+div:nth-child(2) {
+    align-self: center;
 }
-section :nth-child(3) {
-    width: 100px;
-    height: 100px;
-    background: #daa520;
-    border-radius: 50%;
-    position: fixed;
-    left: 300px;
-    top: 200px;
+div:nth-child(4) {
+    align-self: center;
 }
